@@ -2,13 +2,13 @@ version: '2'
 
 services:
   frontend:
-    image: frontend
+    image: allantargino/frontend
     build:
       context: ./Frontend
       dockerfile: Dockerfile
 
   backend:
-    image: backend
+    image: allantargino/backend
     build:
       context: ./Backend
       dockerfile: Dockerfile
