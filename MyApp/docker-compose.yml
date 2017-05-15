@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  frontend:
+    image: frontend
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+
+  backend:
+    image: backend
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
